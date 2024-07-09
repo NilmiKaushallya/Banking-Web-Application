@@ -1,0 +1,10 @@
+.fundTransferPage {
+    background-image: url('../assets/background.jpg');
+    background-size: 100%; /* Optional: Scale the image to cover the entire background */
+    background-repeat: no-repeat; /* Optional: Prevent image from repeating */
+    background-position: top;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 0;
+    padding: 0px;
+}

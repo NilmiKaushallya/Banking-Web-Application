@@ -1,0 +1,30 @@
+.registrationPage {
+    background-image: url('../assets/background.jpg');
+    background-size: 100%; /* Optional: Scale the image to cover the entire background */
+    background-repeat: no-repeat; /* Optional: Prevent image from repeating */
+    background-position: top;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 0;
+    padding: 0px;
+ }
+
+.btn.btn-alert.w-100.rounded-10 {
+    /* background-color: rgb(152, 139, 17); */
+    border: rgb(183, 169, 19);
+  }
+  
+  .btn.btn-danger {
+    background-color: rgb(235, 66, 66);
+    border: rgb(235, 66, 66);
+  }
+
+  .d-flex.justify-content-center.align-items-center.vh-100.register {
+    /* Add right margin */
+    margin-left: 700px; /* Adjust the value as needed */
+  }
+
+  .p-4.rounded.w-90 {
+    background-color: #dfe1d6;
+    opacity: 0.92;
+  }

@@ -1,0 +1,27 @@
+.loginPage {
+    background-image: url('../assets/background.jpg');
+    background-size: 100%; /* Optional: Scale the image to cover the entire background */
+    background-repeat: no-repeat; /* Optional: Prevent image from repeating */
+    background-position: top;
+    box-sizing: border-box;
+    width: 100%;
+    margin-top: 0;
+    padding: 0px;
+}
+
+.d-flex.justify-content-center.align-items-center.vh-100.login {
+    /* Add right margin */
+    margin-left: 700px; /* Adjust the value as needed */
+}
+
+.p-3.rounded.w-50 {
+    background-color: #dfe1d6;
+    opacity: 0.92;
+    
+}
+/* .loginPage h1 {
+    display: inline-block;
+    color: rgb(221, 240, 112);
+    font-size: 50px;
+    font-weight: 700;
+} */

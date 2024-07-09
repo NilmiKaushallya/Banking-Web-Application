@@ -1,0 +1,83 @@
+#sidebar {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background: #dfe1d6;
+    overflow-x: hidden;
+    transition: all 0.3s;
+    padding-top: 0px;
+    width: 21%;
+  }
+  
+  #sidebar.active {
+    left: -5%;
+    transition: color 0.5s;
+  }
+  
+  #sidebarCollapse {
+    color: #fff;
+    position: fixed;
+    left: 0.7%;
+    top: 3%;
+    background: #007bff;
+    padding: 10px;
+    border-radius: 3px;
+    border-style: none;
+    width: 50px;
+    cursor: pointer;
+    z-index: 2;
+    transition: color 0.5s;
+  }
+  
+  #sidebarCollapse:hover {
+    background: #0056b3;
+  }
+
+
+  .list-unstyled.components.right-aligned {
+    /* Common styles for the links (can be customized) */
+    padding: 0;
+    margin: 0px;
+    background: #333;
+    height: 100%;
+    width: 85%;
+    margin-left: 20px;
+    /* border-top: 1px solid #47748b; */
+    border-bottom: 1px solid #47748b;
+    transition: color 0.3s;
+    /* Other link styles (text color, hover effects, etc.) */
+  }
+  
+  .right-aligned {
+    text-align: right; /* Align links to the right */
+    /* Additional styles for right-aligned links (e.g., margin, padding, etc.) */
+  }
+  
+  .sidebar-links {
+    /* Specific link styles */
+    width: 100%;
+    padding-top: 100px;
+    color: #d5e8f2;
+  }
+
+  .list-unstyled.components.right-aligned.sidebar-links img {
+    width: 6px;
+  }
+
+  .list-unstyled.components.right-aligned a {
+    /* Link styles (can be customized) */
+    padding: 20px;
+    text-align: right; /* Align the text to the right */
+    display: block;
+    color: #d5e8f2; /* Text color */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .list-unstyled.components a:hover {
+    /* Link hover styles (can be customized) */
+    color: #007bff; /* Text color on hover */
+  }
+  
